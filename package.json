@@ -1,0 +1,21 @@
+{
+  "name": "system-info-app-electron",
+  "version": "1.0.0",
+  "description": "An application to display System Information",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.0",
+    "electron-packager": "^15.1.0"
+  },
+  "dependencies": {
+    "os-utils": "0.0.14"
+  }
+}
